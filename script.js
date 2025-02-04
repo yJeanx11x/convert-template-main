@@ -50,7 +50,7 @@ function convertCurrency(amount, price, symbol) {
   
 
     // Exibir o resultado total.
-    result.textContent = `${total} Reais`;
+    result.textContent = `R$ ${String(total.toLocaleString('pr-BR').replaceAll('.',","))} Reais`;
 
     // Aplica a classe que exibe o footer para mostrar o resiltado.
     footer.classList.add("show-result");
@@ -67,6 +67,6 @@ function formtCurrencyBRL(value) {
   // Converte para número para utilizar o toLocaleString para formata no padrão BRL (R$ 00,00).
   return Number(value).toLocaleString("pt-BR", {
     style: "currency",
-    currency: "BRL",
+    currency: "BRL"
   });
 }
