@@ -12,9 +12,10 @@ Um **Conversor de Moedas** simples e funcional, desenvolvido apenas com **HTML, 
 
 ✅ Conversão entre moedas pré-definidas  
 ✅ Interface simples e intuitiva  
-✅ Atualização do valor convertido em tempo real  
+✅ Atualização do valor convertido 
 
 🛠 Melhorias Futuras
+
 🔹 Adicionar mais moedas e taxas configuráveis
 🔹 Melhorar o design e responsividade
 🔹 Implementar suporte a múltiplas linguagens
